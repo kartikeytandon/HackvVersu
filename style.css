@@ -56,9 +56,23 @@
 /* Mentor Login section */
 #mentor {
     cursor: pointer;
+    color: black;
+    font-weight: bolder;
 }
-#mentor:hover {
-    color: #fff;
+#mente {
+    color: #004d87;
+    font-weight: bolder;
+}
+.container-fluid {
+    /* background-color: yellow; */
+    background-color: rgb(240, 240, 254);
+}
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 /* Our Mission */
 .main {
@@ -74,7 +88,87 @@
 }
 .container1 {
     background-color: rgb(240, 240, 254);
+    /* background-color: rgb(145, 137, 137); */
+
     margin-top: -20px;
     height: 708px;
     /* height: 800px; */
+}
+.container2 {
+    display: flex;
+    /* flex-direction: row; */
+}
+.box1 {
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: yellow; */
+    width: 628px;
+    /* margin-top: 100px; */
+    margin-top: -600px;
+    margin-left: 100px;
+    padding: 30px;
+    /* align-items: center; */
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#str {
+    color: #004d87;
+    font-size: 6rem;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(181, 135, 159);
+    /* border-radius: 50px; */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: -560px;
+    margin-left: 200px;
+    height: 450px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    /* justify-content: center; */
+}
+.box2 h2 {
+    font-weight: 700;
+    text-align: center;
+    color: rgb(217, 95, 158);
+}
+.box2 form {
+    margin-left: 40px;
+}
+.box2 {
+    box-shadow: 10px -10px 5px 2px rgb(212, 164, 172);
+    /* box-shadow: -10px -10px 3px rgb(181, 135, 159); */
+    background-color: ghostwhite;
+}
+.f1 {
+    border-radius: 10px;
+    background-color: rgb(240, 240, 254);
+    border: 1px solid rgb(203, 121, 135);
+    margin: 5px;
+    width: 80%;
+}
+#f2 {
+    margin-top: 10px;
+    /* margin-left: 200px; */
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+#f2:hover {
+    background-color: rgb(161, 159, 159);
+}
+#img1 {
+    margin-top: -550px;
+    width: 450px;
+    margin-left: 200px;
+}
+.nav.navbar-nav li a {
+    color: rgb(0, 0, 0) !important; 
+    font-weight: bolder;
+}
+.nav .navbar-nav li a:hover { 
+    color: grey !important;
 }
